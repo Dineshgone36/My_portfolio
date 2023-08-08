@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://Dineshgone36.github.io/My_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dest/css/ --recursive",
+    "deploy":"gh-pages -d dest"
+  },
+  "author": "Dinesh Gone",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "node-sass": "^9.0.0"
+  }
+}
